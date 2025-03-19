@@ -96,7 +96,6 @@ git clone https://github.com/Layer-Edge/light-node.git
 ```bash
 cd light-node
 ```
- 
 
  
 ## Configure Environment Variables
