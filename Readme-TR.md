@@ -135,6 +135,8 @@ go build
 
 ![image](https://github.com/user-attachments/assets/0e925a9f-3cbf-4e82-9ff3-5d140285bd7f)
 
+![image](https://github.com/user-attachments/assets/4ac59fd4-cc5f-4abd-8430-1da8f867cc7b)
+
 
 ## CLI Puan Görüntüleme ; 
 
@@ -187,11 +189,15 @@ go build
 ./light-node
 ```
 
+![image](https://github.com/user-attachments/assets/291fec20-bc36-4bd8-bb26-8a55471e8815)
+
+
 - CTRL A + D
 
 - Çalışınca Public Keyinizi Kaydedin ; 
 
 ![image](https://github.com/user-attachments/assets/0e925a9f-3cbf-4e82-9ff3-5d140285bd7f)
+
 
 
 ## CLI Puan Görüntüleme ; 
