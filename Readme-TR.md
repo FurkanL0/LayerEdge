@@ -5,16 +5,16 @@
 
 | X        | Minimum              |
 |------------------|----------------------------|
-| **CPU**          | X |
-| **RAM**          | X GB                     |
-| **Storage**      | X GB SDD                   |
-| **Network**      | X Mbps (1 Gbps+ recommended) |
+| **CPU**          | ∞ |
+| **RAM**          | ∞ GB                     |
+| **Storage**      | ∞ GB SDD                   |
+| **Network**      | ∞ Mbps (∞ Gbps+ recommended) |
 
-| Server Provider        | Link              | Features |
+| Server Sağlayıcıları        | Link              | Özellikler |
 |------------------|----------------------------|----------------------------|
-| **Contabo**          | [Link](https://www.dpbolvw.net/click-101330552-12454592)                     | Cheap / Paypal  |
-| **PQ**      | [Link](https://pq.hosting/?from=627713)                  | Cheap / Crypto Payment |
-| **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Cheap / Paypal |
+| **Contabo**          | [Link](https://www.dpbolvw.net/click-101330552-12454592)                     | Ucuz / Kredi Kartı / Paypal  |
+| **PQ**      | [Link](https://pq.hosting/?from=627713)                  | Ucuz / Kredi Kartı / Kripto İle Ödeme |
+| **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Ucuz / Kredi Kartı / Paypal |
 
 ## Port : 
 - Mercle : 3001
