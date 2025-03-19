@@ -58,7 +58,10 @@ rustc --version
 ## Risc0 Toolchain
 
 ```bash
-curl -L https://risczero.com/install | bash && rzup install
+curl -L https://risczero.com/install
+```
+```bash
+rzup install
 ```
 ```bash
 rzup --version
