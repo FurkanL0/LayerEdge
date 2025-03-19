@@ -55,6 +55,13 @@ source $HOME/.cargo/env
 rustc --version 
 ```
 
+## Docker ; 
+```bash
+sudo apt install -y docker.io
+sudo systemctl enable --now docker
+sudo usermod -aG docker $(whoami)
+docker --version
+```
 ## Risc0 Toolchain
 
 ```bash
@@ -120,32 +127,14 @@ PRIVATE_KEY='privatekey'
 EOF
 ```
 
-## Start the Merkle Service
-
-```bash
-screen -S merkle
-```
-```bash
-cd risc0-merkle-service
-cargo build && cargo run
-```
-
-- CTRL A + D
-
 ## Build and Run the LayerEdge Light Node
 
 ```bash
-screen -S layeredge
+cd $HOME/light-node
+chmod +x scripts/build-risczero.sh
+export PATH="$HOME/.risc0/bin:$PATH"
+./scripts/build-risczero.sh
 ```
-
-```bash
-go build
-./light-node
-```
-
-CTRL A + D
-
-
 
 ## Fetch Points via CLI ; 
 
