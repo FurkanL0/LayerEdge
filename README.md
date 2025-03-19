@@ -58,11 +58,37 @@ rustc --version
 ## Risc0 Toolchain
 
 ```bash
-curl -L https://risczero.com/install | bash
+curl -L https://risczero.com/install -o risc0-install.sh
 ```
 ```bash
-source "/root/.bashrc"
+chmod +x risc0-install.sh
 ```
+```bash
+./risc0-install.sh
+```
+
+```bash
+echo 'export PATH="$HOME/.risc0/bin:$PATH"' >> $HOME/.profile
+echo 'export PATH="$HOME/.risc0/bin:$PATH"' >> $HOME/.bashrc
+if [ -f "$HOME/.zshrc" ]; then
+    echo 'export PATH="$HOME/.risc0/bin:$PATH"' >> $HOME/.zshrc
+fi
+```
+
+
+```bash
+source $HOME/.profile
+```
+
+
+```bash
+source $HOME/.bashrc
+```
+
+```bash
+source $HOME/.zshrc
+```
+
 ```bash
 rzup install
 ```
@@ -84,16 +110,14 @@ cd light-node
 - Change 'cli-node-private-key' with Layeredge Connected Wallet Adress ; 
 
 ```bash
-nano .env
-```
-
-```bash
-export GRPC_URL=34.31.74.109:9090
-export CONTRACT_ADDR=cosmos1ufs3tlq4umljk0qfe8k5ya0x6hpavn897u2cnf9k0en9jr7qarqqt56709
-export ZK_PROVER_URL=http://127.0.0.1:3001
-export API_REQUEST_TIMEOUT=100
-export POINTS_API=http://127.0.0.1:8080
-export PRIVATE_KEY='cli-node-private-key'
+cat <<EOF > .env
+GRPC_URL=34.31.74.109:9090
+CONTRACT_ADDR=cosmos1ufs3tlq4umljk0qfe8k5ya0x6hpavn897u2cnf9k0en9jr7qarqqt56709
+ZK_PROVER_URL=http://127.0.0.1:3001
+API_REQUEST_TIMEOUT=100
+POINTS_API=http://127.0.0.1:8080
+PRIVATE_KEY='privatekey'
+EOF
 ```
 
 ## Start the Merkle Service
