@@ -79,6 +79,9 @@ git clone https://github.com/Layer-Edge/light-node.git
 cd light-node
 ```
 
+
+# Yüksek CPU Kullanım ; 
+
 ## Konfigürasyon
 
 - Siteye bağlandığınız cüzdan adresinin private keyini 'cli-node-private-key' buraya yazın. ; 
@@ -110,6 +113,53 @@ screen -S merkle
 cd risc0-merkle-service
 cargo build && cargo run
 ```
+
+## LayerEdge Light Node'yi Buildliyoruz Sonrada Çalıştırıyoruz.
+
+```bash
+screen -S layeredge
+```
+
+```bash
+go build
+./light-node
+```
+
+- CTRL A + D
+
+- Çalışınca Public Keyinizi Kaydedin ; 
+
+![image](https://github.com/user-attachments/assets/0e925a9f-3cbf-4e82-9ff3-5d140285bd7f)
+
+
+## CLI Puan Görüntüleme ; 
+
+https://light-node.layeredge.io/api/cli-node/points/cuzdanadresi
+
+# Az CPU Kullanım ; 
+
+## Konfigürasyon
+
+- Siteye bağlandığınız cüzdan adresinin private keyini 'cli-node-private-key' buraya yazın. ; 
+
+- Private key kısmında tırnakların içine yazın tırnakları kaldırmayın.
+- Privatekey'in önündeki 0x'i kaldırarak yapıştırdım ben - normal privatekey hata verdi.
+
+```bash
+nano .env
+```
+
+```bash
+export GRPC_URL=34.31.74.109:9090
+export CONTRACT_ADDR=cosmos1ufs3tlq4umljk0qfe8k5ya0x6hpavn897u2cnf9k0en9jr7qarqqt56709
+export ZK_PROVER_URL=https://layeredge.mintair.xyz/
+export API_REQUEST_TIMEOUT=100
+export POINTS_API=http://127.0.0.1:8080
+export PRIVATE_KEY='cli-node-private-key'
+```
+
+- CTRL X Y Enter. Kayıt edecek.
+
 
 ## LayerEdge Light Node'yi Buildliyoruz Sonrada Çalıştırıyoruz.
 
