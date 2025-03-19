@@ -30,6 +30,49 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt install htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev tmux iptables curl nvme-cli git wget make jq libleveldb-dev build-essential pkg-config ncdu tar clang bsdmainutils lsb-release libssl-dev libreadline-dev libffi-dev jq gcc screen unzip lz4 -y
 ```
 
+```bash
+git clone https://github.com/Layer-Edge/light-node.git
+```
+```bash
+cd light-node
+```
+## GO ;
+
+```bash
+wget https://go.dev/dl/go1.22.0.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf go1.22.0.linux-amd64.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+source ~/.bashrc
+go version 
+```
+
+## Rust ; 
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+rustc --version 
+```
+
+## Risc0 Toolchain
+
+```bash
+curl -L https://risczero.com/install | bash && rzup install
+```
+```bash
+rzup --version
+```
+## Configure Environment Variables
+
+```bash
+```
+
+```bash
+```
+
+
+source "/root/.bashrc"
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=FurkanL0&style=flat-square&color=red&label=Profile+Views+/+Repo+Views+" alt="Repo / Profile Views" />
 </p>
