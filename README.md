@@ -160,6 +160,12 @@ CTRL A + D
  
 - https://light-node.layeredge.io/api/cli-node/points/walletadress
 
+- Add from the site ;
+
+- https://dashboard.layeredge.io/
+
+![image](https://github.com/user-attachments/assets/cd9ac166-6f9f-4fec-8dfd-caa87454b340)
+
 
 
 <p align="center">
