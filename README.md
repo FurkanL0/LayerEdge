@@ -101,10 +101,6 @@ export PRIVATE_KEY='cli-node-private-key'
 ```bash
 screen -S merkle
 ```
-
-```bash
-cd light-node
-```
 ```bash
 cd risc0-merkle-service
 cargo build && cargo run
