@@ -83,6 +83,9 @@ cd light-node
 
 - Siteye bağlandığınız cüzdan adresinin private keyini 'cli-node-private-key' buraya yazın. ; 
 
+- Private key kısmında tırnakların içine yazın tırnakları kaldırmayın.
+- Privatekey'in önündeki 0x'i kaldırarak yapıştırdım ben - normal privatekey hata verdi.
+
 ```bash
 nano .env
 ```
@@ -119,8 +122,11 @@ go build
 ./light-node
 ```
 
-CTRL A + D
+- CTRL A + D
 
+- Çalışınca Public Keyinizi Kaydedin ; 
+
+![image](https://github.com/user-attachments/assets/0e925a9f-3cbf-4e82-9ff3-5d140285bd7f)
 
 
 ## Fetch Points via CLI ; 
