@@ -136,6 +136,12 @@ go build
 
 https://light-node.layeredge.io/api/cli-node/points/cuzdanadresi
 
+- Siteden Ekleyin ; 
+
+- https://dashboard.layeredge.io/
+
+![image](https://github.com/user-attachments/assets/cd9ac166-6f9f-4fec-8dfd-caa87454b340)
+
 # Az CPU Kullanım ; 
 
 ## Konfigürasyon
