@@ -114,6 +114,10 @@ cd risc0-merkle-service
 cargo build && cargo run
 ```
 
+![image](https://github.com/user-attachments/assets/90462164-c3c0-4735-8877-670543c0afb7)
+
+- Bunu görünce CTRL A + D ile çıkın.
+
 ## LayerEdge Light Node'yi Buildliyoruz Sonrada Çalıştırıyoruz.
 
 ```bash
