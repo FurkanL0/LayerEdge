@@ -61,6 +61,9 @@ rustc --version
 curl -L https://risczero.com/install | bash
 ```
 ```bash
+source "/root/.bashrc"
+```
+```bash
 rzup install
 ```
 ```bash
