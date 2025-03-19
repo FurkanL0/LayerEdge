@@ -16,6 +16,9 @@
 | **PQ**      | [Link](https://pq.hosting/?from=627713)                  | Cheap / Crypto Payment |
 | **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Cheap / Paypal |
 
+## Port : 
+- Mercle : 3001
+
 
 # SETUP
 
@@ -28,13 +31,6 @@ sudo apt update -y && sudo apt upgrade -y
 
 ```bash
 sudo apt install htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev tmux iptables curl nvme-cli git wget make jq libleveldb-dev build-essential pkg-config ncdu tar clang bsdmainutils lsb-release libssl-dev libreadline-dev libffi-dev jq gcc screen unzip lz4 -y
-```
-
-```bash
-git clone https://github.com/Layer-Edge/light-node.git
-```
-```bash
-cd light-node
 ```
 ## GO ;
 
@@ -63,6 +59,16 @@ curl -L https://risczero.com/install | bash && rzup install
 ```bash
 rzup --version
 ```
+
+## LayerEdge ; 
+
+```bash
+git clone https://github.com/Layer-Edge/light-node.git
+```
+```bash
+cd light-node
+```
+
 ## Configure Environment Variables
 
 - Change 'cli-node-private-key' with Layeredge Connected Wallet Adress ; 
