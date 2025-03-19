@@ -132,7 +132,7 @@ cd risc0-merkle-service
 cargo build && cargo run
 ```
  
-
+- CTRL A + D
  
 ## Build and Run the LayerEdge Light Node
  
