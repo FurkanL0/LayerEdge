@@ -101,7 +101,7 @@ cd light-node
  
 ## Configure Environment Variables
 
-- Change 'cli-node-private-key' with Layeredge Connected Wallet Adress ; 
+- Change 'cli-node-private-key' with Layeredge Connected Wallet Adress if dosent work delete 0x on the privatekey. ; 
 
 ```bash
 nano .env
