@@ -151,9 +151,16 @@ go build
 ```
 
 CTRL A + D
+
+- Save your Public Key when it works;
+
+![image](https://github.com/user-attachments/assets/0e925a9f-3cbf-4e82-9ff3-5d140285bd7f)
  
 ## Fetch Points via CLI ; 
  
+- https://light-node.layeredge.io/api/cli-node/points/walletadress
+
+
 
 <p align="center">
  
