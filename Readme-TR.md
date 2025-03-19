@@ -172,7 +172,12 @@ export PRIVATE_KEY='cli-node-private-key'
 ```bash
 screen -S layeredge
 ```
-
+```bash
+cd
+```
+```bash
+cd light-node
+```
 ```bash
 go build
 ./light-node
