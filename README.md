@@ -93,6 +93,20 @@ export POINTS_API=http://127.0.0.1:8080
 export PRIVATE_KEY='cli-node-private-key'
 ```
 
+## Start the Merkle Service
+
+```bash
+screen -S merkle
+```
+
+```bash
+cd light-node
+```
+```bash
+cd risc0-merkle-service
+cargo build && cargo run
+```
+
 ## Build and Run the LayerEdge Light Node
 
 ```bash
@@ -107,17 +121,6 @@ go build
 CTRL A + D
 
 
-## Start the Merkle Service
-```bash
-cd
-```
-```bash
-cd light-node
-```
-```bash
-cd risc0-merkle-service
-cargo build && cargo run
-```
 
 ## Fetch Points via CLI ; 
 
