@@ -213,7 +213,7 @@ https://light-node.layeredge.io/api/cli-node/points/cuzdanadresi
 ![image](https://github.com/user-attachments/assets/cd9ac166-6f9f-4fec-8dfd-caa87454b340)
 
 
-## Service ; 
+## Service - Teşekkürler Hoodrun ; 
 
 ```bash
 sudo tee /etc/systemd/system/layer-edge.service <<EOF
