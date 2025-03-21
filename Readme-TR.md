@@ -213,6 +213,41 @@ https://light-node.layeredge.io/api/cli-node/points/cuzdanadresi
 ![image](https://github.com/user-attachments/assets/cd9ac166-6f9f-4fec-8dfd-caa87454b340)
 
 
+## Service ; 
+
+```bash
+sudo tee /etc/systemd/system/layer-edge.service <<EOF
+[Unit]
+Description=Layer Edge Light Node
+After=network.target
+
+[Service]
+Type=simple
+User=$(whoami)
+WorkingDirectory=$HOME/light-node
+ExecStart=$HOME/light-node/light-node
+Restart=always
+RestartSec=5
+EnvironmentFile=$HOME/light-node/.env
+Environment="PATH=/usr/local/go/bin:/usr/bin:/bin:$HOME/.cargo/bin:$HOME/.risc0/bin"
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable layer-edge
+sudo systemctl start layer-edge
+```
+
+## Loglar İçin ; 
+
+```bash
+journalctl -fo cat -u layer-edge
+```
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=FurkanL0&style=flat-square&color=red&label=Profile+Views+/+Repo+Views+" alt="Repo / Profile Views" />
 </p>
